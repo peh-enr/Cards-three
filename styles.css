@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  position: absolute;
+  top: 300px;
+  
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.card-1{
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+  width: 50px;
+}
+.card-2 .ph{
+  position: relative;
+  left: 1px;
+}
+.card-3 .ph{
+  position: relative;
+  left:  2px;
+}
+.card-2{
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+}
+.card-3{
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
+ width: 50px;
+}
+.card-4{
+  text-align: center;
+  border: 1px solid;
+  border-radius: 3px;
